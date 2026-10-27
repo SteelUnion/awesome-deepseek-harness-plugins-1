@@ -1,0 +1,12 @@
+{
+  "$schema": "../schema/plugin.schema.json",
+  "id": "SteelUnion/dsh-confirm-gate",
+  "name": "dsh-confirm-gate",
+  "repository": "https://github.com/SteelUnion/dsh-confirm-gate",
+  "category": "dev",
+  "description": {
+    "en": "Counts persistent operations per turn: it reminds the model at the threshold, then makes it stop and ask before continuing. Read-only actions are not counted.",
+    "zh": "按轮统计持久化操作：到阈值先提醒模型，再让它停下来征求确认后才继续。只读操作不计数。"
+  },
+  "added": "2026-10-28"
+}
